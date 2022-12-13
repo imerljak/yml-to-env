@@ -1,0 +1,28 @@
+{
+  "name": "yml-to-env",
+  "version": "1.0.0",
+  "description": "CLI tool to parse yaml files into ENV variables",
+  "main": "src/index.js",
+  "bin": {
+    "yml-to-env": "bin/yml-to-env"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "yml-to-env"
+  ],
+  "author": "Israel Merljak",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.1",
+    "inquirer-fuzzy-path": "^2.3.0",
+    "js-yaml": "^4.1.0"
+  }
+}
